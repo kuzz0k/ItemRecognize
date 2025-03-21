@@ -7,26 +7,23 @@ body {
 }
 
 .container {
-  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .video-container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   margin-top: 20px;
 }
 
-.video-container div {
-  width: 45%;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #333;
-  border-radius: 10px;
-}
-
 h2 {
-  margin-bottom: 10px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px;
 }
